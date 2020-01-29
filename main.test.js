@@ -1,6 +1,37 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let x = 3;
+function double() {
+x = x*2;
+}
+
+let y = 10;
+function triple() {
+y = y*3;
+}
+
+let squareTheNumber = 4;
+function square() {
+squareTheNumber = squareTheNumber * squareTheNumber;
+}
+
+let greeting = 'hello';
+let firstName = 'Sharod';
+function beingNice() {
+greeting = greeting + firstName;
+}
+
+let calling = 'ringing'
+function fullName() {
+  firstName = 'not found';
+}
+
+function phoneCall() {
+  calling = 'call ended';
+}
+
+
 
 
 
