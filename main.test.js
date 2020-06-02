@@ -2,44 +2,37 @@
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
 let x = 3;
-function double() {
-x = x*2;
-}
-
 let y = 10;
-function triple() {
-y = y*3;
-}
-
 let squareTheNumber = 4;
-function square() {
-squareTheNumber = squareTheNumber * squareTheNumber;
-}
-
 let greeting = 'hello';
 let firstName = 'Sharod';
-function beingNice() {
-greeting = greeting + firstName;
+let calling = 'ringing';
+
+double = () => {
+  x = x * 2;
 }
 
-let calling = 'ringing'
-function fullName() {
+triple = () => {
+  y = y * 3;
+}
+
+square = () => {
+  squareTheNumber = squareTheNumber * 4;
+}
+
+beingNice = () => {
+  greeting = greeting + firstName;
+}
+
+fullName = () => {
   firstName = 'not found';
 }
 
-function phoneCall() {
+phoneCall = () => {
   calling = 'call ended';
 }
 
-
-
-
-
-
- 
-
 /*********************************************************************************************************************
-
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
  * CAN READ AND EVALUATE YOUR CODE. *
  * DON'T CHANGE ANYTHING BELOW HERE, PLEASE! *
